@@ -23,10 +23,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #e6ecff;
-    --black:#bfecff;
-    --white: #8f98b3;
-    --grey: #f0fcff;
+    --purple: #002333;
+    --black: #154666;
+    --white: #D2E8E3;
+    --grey: #DFDFDE;
 }
 
 *{
@@ -197,6 +197,8 @@ header .navbar a{
 header .navbar a:hover,
 header .navbar a.active{
     color: var(--purple);
+    text-decoration: underline;
+
 }
 
 header #menu-btn{
@@ -413,7 +415,7 @@ header #menu-btn:hover{
     -ms-flex: 1 1 18rem;
         flex: 1 1 18rem;
     text-align: center;
-    background-color: #222;
+    background-color: #14bde7;
     padding: 2rem;
 }
 
@@ -466,7 +468,7 @@ header #menu-btn:hover{
 
  .skill-item .box .progress-bar{
     width:100%;
-    background:#222;
+    background:#002333;
     overflow:hidden;
     height:1rem;
     border-radius: 50rem;
@@ -475,7 +477,7 @@ header #menu-btn:hover{
  .skill-item .box .progress-bar span{
     display:block;
     height:100%;
-    background: var(--purple);
+    background: var(--white);
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{
