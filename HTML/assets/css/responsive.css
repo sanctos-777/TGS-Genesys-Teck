@@ -53,11 +53,7 @@
   
     .navbar::-webkit-scrollbar-track{
         background: transparent;
-    }
-
-    section, header{
-        padding: 2rem;
-    }
+    }   
 
 }
 
